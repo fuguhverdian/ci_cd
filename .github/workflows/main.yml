@@ -31,7 +31,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: ftpupload.net
-        username: if0_36554743
+        server: ${{ secrets.SER }}
+        username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PSW }}
-        server-dir: /htdocs/laravel/
+        server-dir: ${{ secrets.DIR }}
