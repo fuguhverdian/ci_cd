@@ -3,8 +3,6 @@
 <h1>Introduction</h1>
 Timing Point adalah aplikasi semacam todolist berbasis website. Ada beberapa 4 pada website ini.
 
-<h1>Link Deploy</h1>
-https://timing-point.domcloud.io
 
 <h1>Daftar Anggota Kelompok</h1>
 
