@@ -28,10 +28,10 @@ jobs:
       run: chmod -R 777 storage bootstrap/cache
     - name: Execute tests (Unit and Feature tests) via PHPUnit/Pest
       run: php artisan test
-    - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-      with:
-        server: ${{ secrets.SER }}
-        username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.PSW }}
-        server-dir: ${{ secrets.DIR }}
+    # - name: 📂 Sync files
+    #   uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+    #   with:
+    #     server: ${{ secrets.SER }}
+    #     username: ${{ secrets.USERNAME }}
+    #     password: ${{ secrets.PSW }}
+    #     server-dir: ${{ secrets.DIR }}
